@@ -28,4 +28,15 @@
 컴포넌트 구성
 
 
-<img src = "https://user-images.githubusercontent.com/58714529/116842996-7ad6f600-ac19-11eb-9b7e-86b956ab186f.png" width="350px">
+<img src = "https://user-images.githubusercontent.com/58714529/116842996-7ad6f600-ac19-11eb-9b7e-86b956ab186f.png" width="400px">
+
+
+## backend_and_parser
+
+서비스 API, 공공 API 데이터 크롤링 및 수집 구현, 식단 추천 알고리즘 제공
+
+개발언어 및 프레임워크
++ django
++ djangorestframework
++ python
++ java
