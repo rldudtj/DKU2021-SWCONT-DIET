@@ -1,7 +1,8 @@
 # DKU2021-SWCONT-DIET
 --------------
 # 1. 개요
-<img width="756" alt="스크린샷 2021-05-03 오후 1 15 56" src="https://user-images.githubusercontent.com/58714529/116840757-12d0e180-ac12-11eb-99c8-4d5facdcb7ad.png">  
+단국대학교 2021학년도 오픈소스SW기여 식단관리 프로젝트 "확찐자"
+<img width="500" alt="스크린샷 2021-05-03 오후 1 15 56" src="https://user-images.githubusercontent.com/58714529/116840757-12d0e180-ac12-11eb-99c8-4d5facdcb7ad.png">  
 
 
 ### 소개자료
@@ -26,3 +27,5 @@
  
 컴포넌트 구성
 
+
+<img src = "https://user-images.githubusercontent.com/58714529/116842996-7ad6f600-ac19-11eb-9b7e-86b956ab186f.png" width="350px">
