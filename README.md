@@ -1,2 +1,8 @@
 # DKU2021-SWCONT-DIET
-Diet-balancing program based on user's daily meal plan
+--------------
+# 1.개요
+사용자 식단 입력 및 영양소 기반 자동 식단 조절 프로그램 "확찐자"
+
+
+
+
