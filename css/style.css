@@ -1,0 +1,8 @@
+@font-face {
+  src:url("/Users/leecool/Desktop/leecoolfilm/GmarketSansOTF/GmarketSansLight.otf");
+  font-family: "gsans";
+}
+
+h1 {
+  font-family: "gsans";
+}

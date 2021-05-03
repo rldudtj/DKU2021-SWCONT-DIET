@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>다이어트 식단 관리</title>
+</head>
+<body><div class="content">
+
+    <div class="select">
+
+        <input type="text" value="무엇을 드실 예정인가요?" disabled>
+
+        </div>
+
+    </div>
+
+</body>
+	
+<body>
+ 
+<select id="first" onChange="change()">
+   <option selected="selected">무엇을</option>
+	<option>돼지고기</option>
+   <option>계란요리</option>
+	<option>밥</option>
+	<option>면</option>
+</select>
+ 
+<select id="second">
+   
+   <option selected="selected">얼마나</option>
+	<option>50g</option>
+	<option>100g</option>
+	<option>200g</option>
+	<option>300g</option>
+	<option>400g</option>
+	<option>500g</option>
+</select>
+ 
+ 
+<script>
+function change()
+{
+   var x = document.getElementById("first");
+   var y = document.getElementById("second");
+   y.options.length = 0; 
+   if(x.selectedIndex == 0)
+   {
+		y.options.add(new Option("무엇을", "0"));
+		y.options.add(new Option("고기", "1", false, true));  
+	    y.options.add(new Option("알", "2"));
+	    y.options.add(new Option("밥", "3"));
+	    y.options.add(new Option("면", "4"));
+   }
+ 
+   if(x.selectedIndex == 1)
+   {
+		y.options.add(new Option("50g", "0"));
+		y.options.add(new Option("100g", "1", false, true));  
+		y.options.add(new Option("200g", "2"));
+	   y.options.add(new Option("300g", "3"));
+	   y.options.add(new Option("400g", "4"));
+	   y.options.add(new Option("500g", "5"));
+   }
+	 if(x.selectedIndex == 2)
+   {
+		y.options.add(new Option("50g", "0"));
+		y.options.add(new Option("100g", "1", false, true));  
+		y.options.add(new Option("200g", "2"));
+	   y.options.add(new Option("300g", "3"));
+	   y.options.add(new Option("400g", "4"));
+	   y.options.add(new Option("500g", "5"));
+   }
+	 if(x.selectedIndex == 3)
+   {
+		y.options.add(new Option("50g", "0"));
+		y.options.add(new Option("100g", "1", false, true));  
+		y.options.add(new Option("200g", "2"));
+	   y.options.add(new Option("300g", "3"));
+	   y.options.add(new Option("400g", "4"));
+	   y.options.add(new Option("500g", "5"));
+   }
+ 
+}
+	 if(x.selectedIndex == 4)
+   {
+		y.options.add(new Option("50g", "0"));
+		y.options.add(new Option("100g", "1", false, true));  
+		y.options.add(new Option("200g", "2"));
+	   y.options.add(new Option("300g", "3"));
+	   y.options.add(new Option("400g", "4"));
+	   y.options.add(new Option("500g", "5"));
+   }
+ 
+
+</script>
+  </body>
+	<body>
+	<ahref=;""><a>
+ 
+　　<button>OK</button></a>
+		</body>
+</html>
