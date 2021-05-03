@@ -6,8 +6,8 @@
 
 
 ### 소개자료
-  + 제안서 : https://drive.google.com/file/d/1LfTj4FPZnsRKj3KEfHNykUqSv6Q9cVlG/view?usp=sharing
-  + 진행 보고서 : https://drive.google.com/drive/folders/12ayZw1eldpn_dXnF4yztRKn8S99etzy7?usp=sharing
+  + 제안서 : [구글 드라이브 링크](https://drive.google.com/file/d/1LfTj4FPZnsRKj3KEfHNykUqSv6Q9cVlG/view?usp=sharing) 
+  + 진행 보고서 : [구글 드라이브 링크](https://drive.google.com/drive/folders/12ayZw1eldpn_dXnF4yztRKn8S99etzy7?usp=sharing) 
 
 
 # 2. 구성요소
@@ -40,3 +40,15 @@
 + djangorestframework
 + python
 + java
+
+## 프로젝트 설치
+
+본 프로젝트 repository를 프로젝트를 설치하고자 하는 환경에 내려받습니다.
+~~~
+git clone http://github.com/siwon9898/DKU2021-SWCONT-DIET
+~~~
+### frontend 설치 및 준비
+
+1. nodejs 설치
+
+   - `nodejs 12` 이상의 nodejs를 시스템에 설치합니다.
