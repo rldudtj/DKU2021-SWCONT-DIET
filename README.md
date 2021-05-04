@@ -119,7 +119,10 @@ git clone http://github.com/siwon9898/DKU2021-SWCONT-DIET
 
 <img width="500" alt="스크린샷 2021-05-04 오전 12 54 57" src="https://user-images.githubusercontent.com/58714529/116957717-82f36c00-acd3-11eb-9d09-73c003a3a1cc.png">
   
-### 2021.5.4 기준 
+### 2021.5.4 기준 Database Structure
+
+<img width="300" alt="스크린샷 2021-05-04 오후 12 41 08" src="https://user-images.githubusercontent.com/58714529/116958593-204f9f80-acd6-11eb-8802-49c0a68dbac9.png">
+
   
   
   
