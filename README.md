@@ -109,6 +109,17 @@ git clone http://github.com/siwon9898/DKU2021-SWCONT-DIET
   
   ### 2021.5.4 기준 frontend UI 설계
   
+  <img width="500" alt="스크린샷 2021-05-04 오전 1 08 35" src="https://user-images.githubusercontent.com/58714529/116957708-7ff87b80-acd3-11eb-921b-5187e06d4740.png">
+  
+  <img width="300" alt="스크린샷 2021-05-04 오전 1 30 02" src="https://user-images.githubusercontent.com/58714529/116957712-81c23f00-acd3-11eb-8b84-2fedd2a72253.png">
+
+<img width="500" alt="스크린샷 2021-05-04 오전 12 44 17" src="https://user-images.githubusercontent.com/58714529/116957713-825ad580-acd3-11eb-8ed0-f485803b04ba.png">
+
+<img width="500" alt="스크린샷 2021-05-04 오전 12 45 58" src="https://user-images.githubusercontent.com/58714529/116957716-82f36c00-acd3-11eb-8275-d546778bb78c.png">
+
+<img width="500" alt="스크린샷 2021-05-04 오전 12 54 57" src="https://user-images.githubusercontent.com/58714529/116957717-82f36c00-acd3-11eb-9d09-73c003a3a1cc.png">
+  
+### 2021.5.4 기준 
   
   
   
