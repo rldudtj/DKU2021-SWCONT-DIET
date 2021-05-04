@@ -11,7 +11,6 @@
 
 
 # 2. 구성요소
---------------
 본 프로젝트는 다음 구성 요소로 구성 되어 있습니다.
 
 ## frontend
@@ -52,3 +51,24 @@ git clone http://github.com/siwon9898/DKU2021-SWCONT-DIET
 1. nodejs 설치
 
    - `nodejs 12` 이상의 nodejs를 시스템에 설치합니다.
+   
+2. jslint 설치
+
+   - `jslint 1.2` 이상의 jslint를 시스템에 설치합니다.
+   
+3. vscode extension : live server 설치
+
+   - vscode의 extension 중 `live server`을 시스템에 설치합니다.
+  
+4. 로컬 서버 동작 확인
+  
+   - vscode 우측 하단 `Go Live` 버튼을 누르거나, `⌘L ⌘O` 키를 연속으로 눌러 테스트용 로컬 서버가 잘 작동 되는지 확인합니다.
+  
+  
+### backend 설치 및 준비
+
+1. python 라이브러리 설치
+
+  - pandas, bs4를 시스템에 설치 및 업데이트 합니다.
+  
+2. 
