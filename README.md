@@ -1,5 +1,4 @@
 # DKU2021-SWCONT-DIET
---------------
 # 1. 개요
 단국대학교 2021학년도 오픈소스SW기여 식단관리 프로젝트 "확찐자"
 <p align = "left"><img width="500" alt="스크린샷 2021-05-03 오후 1 15 56" src="https://user-images.githubusercontent.com/58714529/116840757-12d0e180-ac12-11eb-99c8-4d5facdcb7ad.png"></p>
@@ -67,8 +66,52 @@ git clone http://github.com/siwon9898/DKU2021-SWCONT-DIET
   
 ### backend 설치 및 준비
 
-1. python 라이브러리 설치
+1. python3 및 라이브러리 설치
 
-  - pandas, bs4를 시스템에 설치 및 업데이트 합니다.
+     - `Python 3.7`이상의 파이썬 인터프리터 및 `pandas`, `bs4` 라이브러리를 시스템에 설치합니다.
   
-2. 
+2. json 설치
+
+     - `json`을 시스템에 설치 및 업데이트 합니다.
+ 
+### 식품 영양 데이터 수집
+
+`💡 식품 영양성분 데이터 수집 과정에서 모든 영양소를 추출 하는것이 아닌 일부 영양소 정보 만을 추출합니다`
+
+1. 사전 parsing된 데이터베이스 자료 import(권장)
+  
+  사전 수집된 데이터베이스 `backend_and_parser` 자료를 import하여 `xml`형태로 바로 사용 할수 있습니다.
+  `2021. 5. 4` 기준으로 식품 영양성분 약 12000개가 수집 되어 있습니다.
+  
+2. 직접 수집
+
+ `📎 공공 데이터 API를 사용하기 위해 직접 개발계정 신청 및 승인을 받아야 하므로 본 과정은 다소 번거로울 수 있습니다 `
+
+  한국 공공데이터 포털에 접속합니다.
+  
+  ~~~ 
+  https://www.data.go.kr/
+  ~~~
+  
+  수령한 고유 서비스 키를 서비스 url에 입력하여 xml 형태의 API를 확인합니다.
+  
+  ~~~
+  http://apis.data.go.kr/1470000/FoodNtrIrdntInfoService/getFoodNtrItdntList?ServiceKey=/*YourServiceKey*/
+  ~~~
+  
+  다음 명령어로 데이터를 xml 형태로 parsing 합니다.
+  
+  ~~~
+  table = xml.loads(result.content)
+  ~~~
+  
+  vscode 하단 terminal에 xml 형태의 data array가 출력된다면 성공!
+  
+  ### 2021.5.4 기준 frontend UI 설계
+  
+  
+  
+  
+
+  
+
